@@ -2,6 +2,5 @@
 
 sudo apt update
 sudo apt install docker.io git docker-compose make
-sudo groupadd docker sudo usermod -aG docker $USER
-cd alpha-project-one
-
+sudo groupadd docker 
+sudo usermod -aG docker $USER
