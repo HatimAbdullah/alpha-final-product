@@ -15,7 +15,7 @@ logs:
 	docker run --rm -v /var/run/docker.sock:/var/run/docker.sock project-alpha logs
 	
 clean:
-        docker rm -f $$(docker ps -aq)
+	docker rm -f $$(docker ps -aq)
 
 make-executable:
 	chmod +x setup.sh
